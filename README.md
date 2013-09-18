@@ -17,13 +17,13 @@ That's six HTTP requests and nearly 120K of CSS. Great for if you're using every
 
 1. Drop the gravityforms.scss file and gravityforms folder into your current SCSS project
 2. Open up the gravityforms.scss file and optionally enable and disable the partials
-3. Refresh your compiler so it picks up on the new files. When you compile it should output a gravityforms.css in the CSS directory defined in your compiler
-4. Under the GF settings in WordPress, diable the CSS output
+3. When you compile it should output a gravityforms.css in the CSS directory defined in your compiler
+4. Under the GF settings in WordPress, disable the CSS output
 5. Register and enqueue the script in your functions.php like a good developer
 
 ## Benchmark
 
-For a basic form that only uses text inuts, textareas, radio buttons and checkboxes (and not RTL)
+For a basic form that only uses text inputs, textareas, radio buttons and checkboxes and not any of GF's more advanced pricing, CAPTCHA or post fields:
 
 Plugin Output:
 
@@ -37,4 +37,4 @@ Theme Output (with proper includes):
 
 ## What's Next
 
-Ideally a future update will include some variables for colours, typography and gradients (etc) to automatically custommise the CSS in the compiled output but that will need to wait until I can work out the best way to track changes to the plugins CSS with new release updates.
+Ideally a future update will include some variables for colours, typography and gradients (etc) to customise the CSS in the compiled output.
