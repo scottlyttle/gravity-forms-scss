@@ -1,0 +1,79 @@
+/* list fields added in v.1.6 -----------------------------------------------------------------*/
+
+.gform_wrapper table.gfield_list,
+.gform_wrapper table.gfield_list caption,
+.gform_wrapper table.gfield_list tbody,
+.gform_wrapper table.gfield_list tfoot,
+.gform_wrapper table.gfield_list thead,
+.gform_wrapper table.gfield_list tr,
+.gform_wrapper table.gfield_list th,
+.gform_wrapper table.gfield_list td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.gform_wrapper table.gfield_list {
+	border-spacing: 0;
+	border-collapse:collapse;
+}
+
+.gform_wrapper table.gfield_list thead th {
+	font-weight: bold;
+	text-align: left;
+}
+
+.gform_wrapper li.gfield.gfield_error table.gfield_list thead th {
+	color: #790000;
+}
+
+.gform_wrapper table.gfield_list thead,
+.gform_wrapper table.gfield_list tr {
+	padding: 0;
+	margin: 0;
+}
+
+.gform_wrapper table.gfield_list th,
+.gform_wrapper table.gfield_list td {
+	padding:0 0 0.5em 0;
+}
+
+.gform_wrapper table.gfield_list th + th,
+.gform_wrapper table.gfield_list td + td {
+	padding:0 0 0.5em 0.7em;
+}
+
+.gform_wrapper .left_label .gfield_list, .gform_wrapper .right_label .gfield_list {
+	width: 64%;
+}
+
+.gform_wrapper .top_label .gfield_list {
+	width: 99%;
+}
+
+.gform_wrapper .left_label .gf_list_one_column, .gform_wrapper .right_label .gf_list_one_column {
+	width: 45%;
+}
+
+.gform_wrapper .top_label .gf_list_one_column {
+	width: 46%;
+}
+
+.gform_wrapper .gfield_list input{
+	width: 98%;
+}
+
+.gfield_icon_disabled {
+	cursor: default !important;
+	filter: alpha(opacity=60);
+	-moz-opacity: 0.6;
+	-khtml-opacity: 0.6;
+	opacity: 0.6;
+}
+
+.gform_wrapper table.gfield_list td.gfield_list_icons {
+	min-width: 45px !important;
+}

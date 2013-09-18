@@ -1,0 +1,26 @@
+/* textarea character counter ------------------------------------------------------*/
+
+.gform_wrapper div.charleft {
+	font-size: 11px;
+	margin-top: 4px;
+	color: #B7B7B7;
+	width: 92% !important;
+	white-space: nowrap !important;
+}
+
+.gform_wrapper div.charleft[style] {
+	width: 92% !important;
+}
+
+.gform_wrapper .left_label div.charleft,
+.gform_wrapper .right_label div.charleft {
+	margin-left: 32%;
+}
+
+.gform_wrapper div.charleft.warningTextareaInfo {
+	color: #A1A1A1;
+}
+
+.gform_wrapper li.gf_hide_charleft div.charleft  {
+	display: none !important;
+}

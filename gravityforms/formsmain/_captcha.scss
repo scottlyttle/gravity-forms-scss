@@ -1,0 +1,77 @@
+/* hide the honeypot field  ------------------------------------------------------*/
+
+.gform_validation_container,
+.gform_wrapper .gform_validation_container,
+body .gform_wrapper li.gform_validation_container,
+body .gform_wrapper .gform_body ul.gform_fields li.gfield.gform_validation_container,
+body .gform_wrapper ul.gform_fields li.gfield.gform_validation_container {
+	display: none !important;
+	position: absolute !important;
+	left: -9000px;
+}
+
+/* Really Simple Captcha ------------------------------------------------------*/
+
+
+.gform_wrapper .gfield_captcha_input_container {
+	padding-top: 3px;
+}
+
+.gform_wrapper .simple_captcha_small input {
+	width: 100px;
+}
+
+.gform_wrapper .simple_captcha_medium input {
+	width: 150px;
+}
+
+.gform_wrapper .simple_captcha_large input {
+	width: 200px;
+}
+
+.gform_wrapper .gform_wrapper .left_label .simple_captcha_small,
+.gform_wrapper .right_label .simple_captcha_small,
+.gform_wrapper .left_label .simple_captcha_medium,
+.gform_wrapper .right_label .simple_captcha_medium,
+.gform_wrapper .left_label .simple_captcha_large,
+.gform_wrapper .right_label .simple_captcha_large {
+	margin-left: 32%;
+}
+
+.gform_wrapper .gfield_captcha_container img.gfield_captcha {
+	border: none !important;
+	background: none !important;
+	float: none !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+/* math challenge ------------------------------------------------------*/
+
+.gform_wrapper .math_small input {
+	width: 69px;
+}
+
+.gform_wrapper .math_medium input {
+	width: 90px;
+}
+
+.gform_wrapper .math_large input {
+	width: 108px;
+}
+
+.gform_wrapper .left_label .math_small,
+.gform_wrapper .right_label .math_small,
+.gform_wrapper .left_label .math_medium,
+.gform_wrapper .right_label .math_medium,
+.gform_wrapper .left_label .math_large,
+.gform_wrapper .right_label .math_large {
+	margin-left: 32%;
+}
+
+/* fix recaptcha line height issue ------------------------------------------------------*/
+
+body #content .entry-content .gform_wrapper form .gform_body .gform_fields .gfield .ginput_container #recaptcha_widget_div #recaptcha_area .recaptchatable tbody tr td .recaptcha_input_area,
+body .gform_wrapper form .gform_body .gform_fields .gfield .ginput_container #recaptcha_widget_div #recaptcha_area .recaptchatable tbody tr td .recaptcha_input_area {
+	line-height: 1em !important;
+}

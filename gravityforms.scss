@@ -1,0 +1,21 @@
+// Optionally enable and disable each of the partials below
+
+@import "gravityforms/formreset.scss";						// Forms Reset
+@import "gravityforms/datepicker";							// Date Picker
+
+@import "gravityforms/formsmain/base";						// Base Styles (recommended)
+@import "gravityforms/formsmain/radio-and-checkbox";		// Radio and Checkboxes
+@import "gravityforms/formsmain/captcha";					// CAPTCHA
+@import "gravityforms/formsmain/textarea";					// Textareas
+@import "gravityforms/formsmain/submission-limit";			// Limited Submission Forms
+@import "gravityforms/formsmain/pricing";					// Pricing Fields
+@import "gravityforms/formsmain/multipage";					// Multipage Forms
+@import "gravityforms/formsmain/password";					// Password Field
+@import "gravityforms/formsmain/html-blocks";				// HTML Blocks
+@import "gravityforms/formsmain/list-fields";				// List Fields
+@import "gravityforms/formsmain/enhanced-ui";				// Enhanced UI
+@import "gravityforms/formsmain/credit-cards";				// Credit Card Fields
+
+@import "gravityforms/readyclass";							// CSS Ready Classes for using multi column fields
+@import "gravityforms/browsers";							// Browser Specific Styles
+//@import "gravityforms/rtl";								// Right-To-Left Support (commented out by default)
