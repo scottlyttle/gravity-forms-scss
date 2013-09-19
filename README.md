@@ -1,6 +1,7 @@
 # Gravity Forms SCSS
 
-More controlled CSS output for the Gravity Forms plugin. Helpful for when you're creating custom WP themes for clients Up to date for GF v1.7.9
+More controlled CSS output for the Gravity Forms plugin. Helpful for when you're creating custom WP themes for clients.
+Up to date for GF v1.7.9
 
 The current GF CSS output on the frontend consists of the following:
 
@@ -15,17 +16,16 @@ That's six HTTP requests and nearly 120K of CSS. Great for if you're using every
 
 ## How to Use
 
-1. Drop the `gravityforms.scss` file and `gravityforms` folder into your current SCSS project
-2. Open up the `gravityforms.scss` file and optionally enable/disable the partials
-3. When you compile it should output a `gravityforms.css` in the CSS directory (defined in your compiler)
+1. Drop the `gravityforms.scss` file and `gravityforms` folder into your project
+2. Open up the `gravityforms.scss` file and optionally enable/disable the partials depending on the fields you intend to use on the website. When you compile it should output a `gravityforms.css` in the CSS directory (defined in your compiler)
 4. Under the GF settings in WordPress, disable the CSS output (Forms --> Settings)
-5. Register and enqueue the `gravityforms.css` stylesheet in your `functions.php` like a good developer
+5. Register/enqueue the `gravityforms.css` stylesheet in your theme's `functions.php` like a good developer
 
 ## Benchmark
 
-For a basic form that only uses text inputs, textareas, radio buttons and checkboxes and **not** any of GF's more advanced pricing, CAPTCHA or post fields:
+For a basic form that only uses text inputs, textareas, radio buttons and checkboxes and not any of GF's more advanced pricing, CAPTCHA or post fields:
 
-Plugin Output:
+Standard Plugin Output:
 
 - Five CSS Files
 - 106K of CSS
