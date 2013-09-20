@@ -1,22 +1,16 @@
-/*
-----------------------------------------------------------------
+// Gravity Forms Date Picker Styles
+// http: //www.gravityforms.com
+// updated: March 18, 2013 4:24 PM
 
-Gravity Forms Date Picker Styles
-http: //www.gravityforms.com
-updated: March 18, 2013 4:24 PM
+// Customized styles for the jQuery UI Datepicker 1.9.2
+// copyright 2012 jQuery Foundation and other contributors
+// Released under the MIT license.
+// http://jquery.org/license
+// some styles courtesty of http://www.hongkiat.com/
 
-Customized styles for the jQuery UI Datepicker 1.9.2
-copyright 2012 jQuery Foundation and other contributors
-Released under the MIT license.
-http://jquery.org/license
-some styles courtesty of http://www.hongkiat.com/
-
-Gravity Forms is a Rocketgenius project
-copyright 2013 Rocketgenius Inc.
-http: //www.rocketgenius.com
-
-----------------------------------------------------------------
-*/
+// Gravity Forms is a Rocketgenius project
+// copyright 2013 Rocketgenius Inc.
+// http: //www.rocketgenius.com
 
 .ui-datepicker {
 	width: 216px;
@@ -38,7 +32,7 @@ http: //www.rocketgenius.com
 }
 
 .ui-datepicker-header {
-	background-color: #666; /* set the header background color */
+	background-color: #666; // set the header background color
 	color: #e0e0e0;
 	font-weight: bold;
 	-webkit-box-shadow: inset 0px 1px 1px 0px rgba(250, 250, 250, .2);
@@ -63,7 +57,7 @@ http: //www.rocketgenius.com
 	height: 30px;
 	text-align: center;
 	cursor: pointer;
-	background-image: url('../images/datepicker/arrow.png');
+	background-image: url('../../../wp-content/plugins/gravityforms/images/datepicker/arrow.png');
 	background-repeat: no-repeat;
 	line-height: 600%;
 	overflow: hidden;
@@ -153,9 +147,9 @@ http: //www.rocketgenius.com
 }
 
 .ui-datepicker-calendar .ui-state-active {
-	background: #FFF2AA; /* set the active date background color */
-	border: 1px solid #c19163; /* set the active date border color */
-	color: #666; /* set the active date font color */
+	background: #FFF2AA; // set the active date background color
+	border: 1px solid #c19163; // set the active date border color
+	color: #666; // set the active date font color
 	-webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
 	-moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
 	box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
