@@ -89,7 +89,7 @@
 }
 
 .gform_wrapper .chzn-container-single .chzn-single div b {
-	background-image: url(../images/chosen-sprite.png);
+	background-image: url(#{$image_path}/chosen-sprite.png);
 	background-position:  0 1px;
 	background-repeat: no-repeat;
 	display: block;
@@ -104,14 +104,14 @@
 }
 
 .gform_wrapper .chzn-container-single .chzn-search input {
-	background: #FFF url(../images/chosen-sprite.png) 100% -20px no-repeat;
-	background: url(../images/chosen-sprite.png) 100% -20px no-repeat, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, white), color-stop(0.99, #EEE));
-	background: url(../images/chosen-sprite.png) 100% -20px no-repeat, -webkit-linear-gradient(center bottom, white 85%, #EEE 99%);
-	background: url(../images/chosen-sprite.png) 100% -20px no-repeat, -moz-linear-gradient(center bottom, white 85%, #EEE 99%);
-	background: url(../images/chosen-sprite.png) 100% -20px no-repeat, -o-linear-gradient(bottom, white 85%, #EEE 99%);
-	background: url(../images/chosen-sprite.png) 100% -20px no-repeat, -ms-linear-gradient(top, #FFF 85%,#EEE 99%);
-	background: url(../images/chosen-sprite.png) 100% -20px no-repeat, -ms-linear-gradient(top, #FFF 85%,#EEE 99%);
-	background: url(../images/chosen-sprite.png) 100% -20px no-repeat, linear-gradient(top, #FFF 85%,#EEE 99%);
+	background: #FFF url(../../../wp-content/plugins/gravityforms/images/chosen-sprite.png) 100% -20px no-repeat;
+	background: url(../../../wp-content/plugins/gravityforms/images/chosen-sprite.png) 100% -20px no-repeat, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, white), color-stop(0.99, #EEE));
+	background: url(../../../wp-content/plugins/gravityforms/images/chosen-sprite.png) 100% -20px no-repeat, -webkit-linear-gradient(center bottom, white 85%, #EEE 99%);
+	background: url(../../../wp-content/plugins/gravityforms/images/chosen-sprite.png) 100% -20px no-repeat, -moz-linear-gradient(center bottom, white 85%, #EEE 99%);
+	background: url(../../../wp-content/plugins/gravityforms/images/chosen-sprite.png) 100% -20px no-repeat, -o-linear-gradient(bottom, white 85%, #EEE 99%);
+	background: url(../../../wp-content/plugins/gravityforms/images/chosen-sprite.png) 100% -20px no-repeat, -ms-linear-gradient(top, #FFF 85%,#EEE 99%);
+	background: url(../../../wp-content/plugins/gravityforms/images/chosen-sprite.png) 100% -20px no-repeat, -ms-linear-gradient(top, #FFF 85%,#EEE 99%);
+	background: url(../../../wp-content/plugins/gravityforms/images/chosen-sprite.png) 100% -20px no-repeat, linear-gradient(top, #FFF 85%,#EEE 99%);
 	margin: 1px 0;
 	padding: 4px 20px 4px 5px;
 	outline: 0;
@@ -214,7 +214,7 @@
 	width: 8px;
 	height: 9px;
 	font-size: 1px;
-	background-image: url(../images/chosen-sprite.png);
+	background-image: url(#{$image_path}/chosen-sprite.png);
 	background-position: right top;
 	background-repeat: no-repeat;
 }
@@ -391,13 +391,13 @@
 }
 
 .gform_wrapper .chzn-rtl .chzn-search input {
-	background: url(../images/chosen-sprite.png) -38px -20px no-repeat, #FFF;
-	background: url(../images/chosen-sprite.png) -38px -20px no-repeat, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, white), color-stop(0.99, #EEE));
-	background: url(../images/chosen-sprite.png) -38px -20px no-repeat, -webkit-linear-gradient(center bottom, white 85%, #EEE 99%);
-	background: url(../images/chosen-sprite.png) -38px -20px no-repeat, -moz-linear-gradient(center bottom, white 85%, #EEE 99%);
-	background: url(../images/chosen-sprite.png) -38px -20px no-repeat, -o-linear-gradient(bottom, white 85%, #EEE 99%);
-	background: url(../images/chosen-sprite.png) -38px -20px no-repeat, -ms-linear-gradient(top, #FFF 85%,#EEE 99%);
-	background: url(../images/chosen-sprite.png) -38px -20px no-repeat, -ms-linear-gradient(top, #FFF 85%,#EEE 99%);
-	background: url(../images/chosen-sprite.png) -38px -20px no-repeat, linear-gradient(top, #FFF 85%,#EEE 99%);
+	background: url(#{$image_path}/chosen-sprite.png) -38px -20px no-repeat, #FFF;
+	background: url(#{$image_path}/chosen-sprite.png) -38px -20px no-repeat, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, white), color-stop(0.99, #EEE));
+	background: url(#{$image_path}/chosen-sprite.png) -38px -20px no-repeat, -webkit-linear-gradient(center bottom, white 85%, #EEE 99%);
+	background: url(#{$image_path}/chosen-sprite.png) -38px -20px no-repeat, -moz-linear-gradient(center bottom, white 85%, #EEE 99%);
+	background: url(#{$image_path}/chosen-sprite.png) -38px -20px no-repeat, -o-linear-gradient(bottom, white 85%, #EEE 99%);
+	background: url(#{$image_path}/chosen-sprite.png) -38px -20px no-repeat, -ms-linear-gradient(top, #FFF 85%,#EEE 99%);
+	background: url(#{$image_path}/chosen-sprite.png) -38px -20px no-repeat, -ms-linear-gradient(top, #FFF 85%,#EEE 99%);
+	background: url(#{$image_path}/chosen-sprite.png) -38px -20px no-repeat, linear-gradient(top, #FFF 85%,#EEE 99%);
 	padding: 4px 5px 4px 20px;
 }

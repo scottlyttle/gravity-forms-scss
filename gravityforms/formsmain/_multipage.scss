@@ -39,7 +39,7 @@
 	overflow: hidden;
 	line-height: 20px !important;
 	border: 1px solid #EEE;
-	background-image: url(../../../wp-content/plugins/gravityforms/images/gf-percentbar-bg.png);
+	background-image: url(#{$image_path}/gf-percentbar-bg.png);
 	background-repeat: repeat-x;
 	background-position: bottom;
 	background-color: #FFF;
@@ -73,42 +73,42 @@
 }
 
 .gform_wrapper .percentbar_blue {
-	background-image: url(../../../wp-content/plugins/gravityforms/images/gf-percentbar-blue.png);
+	background-image: url(#{$image_path}/gf-percentbar-blue.png);
 	background-repeat: repeat-x;
 	background-color: #0072BC;
 	color: #FFF;
 }
 
 .gform_wrapper .percentbar_gray {
-	background-image: url(../../../wp-content/plugins/gravityforms/images/gf-percentbar-gray.png);
+	background-image: url(#{$image_path}/gf-percentbar-gray.png);
 	background-repeat: repeat-x;
 	background-color: #666;
 	color: #FFF;
 }
 
 .gform_wrapper .percentbar_green {
-	background-image: url(../../../wp-content/plugins/gravityforms/images/gf-percentbar-green.png);
+	background-image: url(#{$image_path}/gf-percentbar-green.png);
 	background-repeat: repeat-x;
 	background-color: #94DC21;
 	color: #FFF;
 }
 
 .gform_wrapper .percentbar_orange {
-	background-image: url(../../../wp-content/plugins/gravityforms/images/gf-percentbar-orange.png);
+	background-image: url(#{$image_path}/gf-percentbar-orange.png);
 	background-repeat: repeat-x;
 	background-color: #DC7021;
 	color: #FFF;
 }
 
 .gform_wrapper .percentbar_red {
-	background-image: url(../../../wp-content/plugins/gravityforms/images/gf-percentbar-red.png);
+	background-image: url(#{$image_path}/gf-percentbar-red.png);
 	background-repeat: repeat-x;
 	background-color: #DC2521;
 	color: #FFF;
 }
 
 .gform_wrapper .percentbar_custom {
-	background-image: url(../../../wp-content/plugins/gravityforms/images/gf-percentbar-custom.png);
+	background-image: url(#{$image_path}/gf-percentbar-custom.png);
 	background-repeat: repeat-x;
 }
 
