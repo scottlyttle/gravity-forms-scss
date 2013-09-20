@@ -1,4 +1,4 @@
-/* credit card icons ------------------------------------------------------*/
+// credit card icons ------------------------------------------------------
 
 .gform_wrapper .gform_card_icon_container {
 	margin: 8px 0 6px 0;
@@ -159,7 +159,7 @@
 	background-position: -180px -256px;
 }
 
-/* credit card fields ------------------------------------------------------*/
+// credit card fields ------------------------------------------------------
 
 .gform_card_icon_container input[type=radio]#gform_payment_method_creditcard {
 	float: left;
@@ -229,4 +229,32 @@
 	display: inline-block;
 	zoom: 1;
 	*display: inline;
+}
+
+// credit card errors and warnings ------------------------------------------------------
+
+.gform_wrapper li.gfield.gfield_creditcard_warning {
+	margin-bottom: 6px !important;
+	padding: 6px 6px 4px 6px !important;
+	border: 1px dashed #C89797;
+}
+
+.gform_wrapper li.gfield.gfield_creditcard_warning div.gfield_creditcard_warning_message {
+	font-size:1em;
+	font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+	padding: 10px 20px 10px 45px;
+	min-height: 25px;
+	background-image: url(../../../wp-content/plugins/gravityforms/images/stopbanner.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-color: #790000;
+	border-bottom: 1px solid #620101;
+	color: #FFF;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.50);
+	line-height: 1.3em;
+	letter-spacing: 0.2pt;
+}
+
+li.gfield + li.gfield.gfield_creditcard_warning {
+	margin-top: 14px !important;
 }

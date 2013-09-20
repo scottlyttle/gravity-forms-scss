@@ -1,4 +1,4 @@
-/* HTML field default margins -----------------------------------------------------*/
+// HTML field default margins -----------------------------------------------------
 
 .gform_wrapper .left_label li.gfield_html_formatted,
 .gform_wrapper .right_label li.gfield_html_formatted {
@@ -9,7 +9,7 @@
 	margin-top: 10px;
 }
 
-/* reset the default list styles for the HTML blocks -----------------------------------------------------------------*/
+// reset the default list styles for the HTML blocks -----------------------------------------------------------------
 
 body .gform_wrapper div.gform_body ul.gform_fields li.gfield.gfield_html ul li,
 body .gform_wrapper form div.gform_body ul.gform_fields li.gfield.gfield_html ul li {

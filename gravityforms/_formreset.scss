@@ -1,21 +1,15 @@
-/*
-----------------------------------------------------------------
+// formreset.css
+// Gravity Forms CSS Reset
+// http://www.gravityforms.com
+// updated: March 17, 2013 8:21 PM
 
-formreset.css
-Gravity Forms CSS Reset
-http://www.gravityforms.com
-updated: March 17, 2013 8:21 PM
+// Gravity Forms is a Rocketgenius project
+// copyright 2013 Rocketgenius Inc.
+// http: //www.rocketgenius.com
+// this may not be redistributed without the
+// express written permission of the author.
 
-Gravity Forms is a Rocketgenius project
-copyright 2013 Rocketgenius Inc.
-http: //www.rocketgenius.com
-this may not be redistributed without the
-express written permission of the author.
-
-----------------------------------------------------------------
-*/
-
-/* Ready Class to reset elements inside the form wrapper ------------------------- */
+// Ready Class to reset elements inside the form wrapper -------------------------
 
 body .gform_wrapper.gf_reset_wrapper,
 body .gform_wrapper.gf_reset_wrapper div,
@@ -97,7 +91,7 @@ body .gform_wrapper.gf_reset_wrapper td {
 	font-weight: inherit; 
 	font-style: inherit; 
 	font-size: 100%; 
-	font-family: inherit; 
+	font-family: $font_family; 
 	vertical-align: baseline;
 	line-height: 1;
 	font-weight: normal;

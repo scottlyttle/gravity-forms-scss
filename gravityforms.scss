@@ -1,4 +1,22 @@
-// Optionally enable and disable each of the partials below
+// =====================================================================================
+//		Defaults - Best to leave these as they are
+// =====================================================================================
+
+$asterix: #790000 !default;
+$error: #790000 !default;
+$font_family: inherit !default;
+
+// =====================================================================================
+//		Variables - Edit or delete these to overide the defaults
+// =====================================================================================
+
+$asterix: #790000;
+$error: #790000;
+$font_family: inherit;
+
+// =====================================================================================
+//		Partials - Optionally enable/disable these
+// =====================================================================================
 
 @import "gravityforms/formreset.scss";						// Forms Reset
 @import "gravityforms/datepicker";							// Date Picker

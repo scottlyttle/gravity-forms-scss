@@ -1,21 +1,15 @@
-/*
-----------------------------------------------------------------
+// browsers.css
+// Gravity Forms Browser-Specific CSS
+// http://www.gravityforms.com
+// updated: June 3, 2013 5:39 PM
 
-browsers.css
-Gravity Forms Browser-Specific CSS
-http://www.gravityforms.com
-updated: June 3, 2013 5:39 PM
+// Gravity Forms is a Rocketgenius project
+// copyright 2013 Rocketgenius Inc.
+// http: //www.rocketgenius.com
+// this may not be redistributed without the
+// express written permission of the author.
 
-Gravity Forms is a Rocketgenius project
-copyright 2013 Rocketgenius Inc.
-http: //www.rocketgenius.com
-this may not be redistributed without the
-express written permission of the author.
-
-----------------------------------------------------------------
-*/
-
-/* Safari specific rules ------------------------------------------------------*/
+// Safari specific rules ------------------------------------------------------
 
 .entry .gform_wrapper.gf_browser_safari ul li:before,
 .entry .gform_wrapper.gf_browser_safari ul li:after {
@@ -36,7 +30,7 @@ express written permission of the author.
 	margin-top: 4px;
 }
 
-/* Chrome specific rules ------------------------------------------------------*/
+// Chrome specific rules ------------------------------------------------------
 
 .gform_wrapper.gf_browser_chrome ul li:before,
 .gform_wrapper.gf_browser_chrome ul li:after,
@@ -66,7 +60,7 @@ express written permission of the author.
 	margin-top: 4px;
 }
 
-/* Firefox specific rules ------------------------------------------------------*/
+// Firefox specific rules ------------------------------------------------------
 
 .gform_wrapper.gf_browser_gecko ul li:before,
 .gform_wrapper.gf_browser_gecko ul li:after,
@@ -89,7 +83,7 @@ express written permission of the author.
 	padding: 5px 0 0 0;
 }
 
-/* Opera specific rules ------------------------------------------------------*/
+// Opera specific rules ------------------------------------------------------
 
 .gform_wrapper.gf_browser_opera ul li:before,
 .gform_wrapper.gf_browser_opera ul li:after,
@@ -113,7 +107,7 @@ express written permission of the author.
 }
 
 
-/* IE specific rules ------------------------------------------------------*/
+// IE specific rules ------------------------------------------------------
 
 .gform_wrapper.gf_browser_ie ul li:before,
 .gform_wrapper.gf_browser_ie ul li:after,
@@ -184,7 +178,7 @@ express written permission of the author.
 	left: 4px;
 }
 
-/* iPhone specific rules ------------------------------------------------------*/
+// iPhone specific rules ------------------------------------------------------
 
 .gform_wrapper.gf_browser_iphone ul li:before,
 .gform_wrapper.gf_browser_iphone ul li:after,
@@ -193,7 +187,7 @@ express written permission of the author.
 	content: none;
 }
 
-/* rules for other unknown browsers ------------------------------------------------------*/
+// rules for other unknown browsers ------------------------------------------------------
 
 .gform_wrapper.gf_browser_unknown ul li:before,
 .gform_wrapper.gf_browser_unknown ul li:after,

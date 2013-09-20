@@ -1,19 +1,14 @@
-/*
-----------------------------------------------------------------
+// rtl.css
+// Gravity Forms RTL Language Support
+// http://www.gravityforms.com
+// updated: May 7, 2013 10:52 PM
 
-rtl.css
-Gravity Forms RTL Language Support
-http://www.gravityforms.com
-updated: May 7, 2013 10:52 PM
+// Gravity Forms is a Rocketgenius project
+// copyright 2013 Rocketgenius Inc.
+// http: //www.rocketgenius.com
+// this may not be redistributed without the
+// express written permission of the author.
 
-Gravity Forms is a Rocketgenius project
-copyright 2013 Rocketgenius Inc.
-http: //www.rocketgenius.com
-this may not be redistributed without the
-express written permission of the author.
-
-----------------------------------------------------------------
-*/
 
 html[dir="rtl"] .gform_wrapper *,
 html[dir="rtl"] .gform_wrapper form,
@@ -394,7 +389,7 @@ html[dir="rtl"] div#preview_hdr div:first-child {
 	padding-right: 26px !important;
 }
 
-/* Admin RTL support ----------------------------------------------------*/
+// Admin RTL support ----------------------------------------------------
 
 html[dir="rtl"] body.wp-admin  * {
 	direction: rtl !important;
@@ -519,7 +514,7 @@ html[dir="rtl"] body.wp-admin div.delete-alert {
 	padding: 0 20px 20px 20px;
 }
 
-/* RTL tweaks for Firefox ------------------------------------------------------*/
+// RTL tweaks for Firefox ------------------------------------------------------
 
 body.rtl .gform_wrapper.gf_browser_gecko .top_label input[type="file"],
 body.rtl .gform_wrapper.gf_browser_gecko .left_label input[type="file"],
@@ -531,7 +526,7 @@ body .gform_wrapper.gf_rtl_wrapper.gf_browser_gecko .right_label input[type="fil
     direction: rtl !important;
 }
 
-/* RTL tweaks for Opera ------------------------------------------------------*/
+// RTL tweaks for Opera ------------------------------------------------------
 
 html[dir="rtl"] .gform_wrapper.gf_browser_opera input[type="checkbox"],
 body.rtl .gform_wrapper.gf_browser_opera input[type="checkbox"],
