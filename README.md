@@ -16,10 +16,11 @@ That's six HTTP requests and nearly 120K of CSS. Great for if you're using every
 
 ## How to Use
 
-1. Drop the `gravityforms.scss` file and `gravityforms` folder into your project
-2. Open up the `gravityforms.scss` file and optionally enable/disable the partials depending on the fields you intend to use on the website. When you compile it should output a `gravityforms.css` in the CSS directory (defined in your compiler)
-4. Under the GF settings in WordPress, disable the CSS output (Forms --> Settings)
-5. Register/enqueue the `gravityforms.css` stylesheet in your theme's `functions.php` like a good developer
+1. Drop the `gravityforms.scss` file and `gravityforms` folder into your project's SCSS folder
+2. Open up the `gravityforms.scss` file and optionally enable/disable the partials depending on the field types you intend to use on the website.
+3. When you compile it should output a `gravityforms.css` in the CSS directory (defined in your compiler)
+4. Register/enqueue the `gravityforms.css` stylesheet in your theme's `functions.php` like a good developer
+5. Under the GF settings in WordPress (Forms --> Settings), disable the CSS output 
 
 ## Benchmark
 
@@ -37,4 +38,5 @@ Customised Output:
 
 ## What's Next
 
-Ideally a future update will include some variables for colours, typography and gradients (etc) to customise the CSS in the compiled output.
+- Gradually build the list of variables
+- Add some conditionals (eg remove box shadow off all input types)
