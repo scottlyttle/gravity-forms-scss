@@ -1,3 +1,7 @@
+// 
+// shared styles ------------------------------------------------------
+//
+
 .gform_wrapper {
 	overflow: inherit;
 	margin: 10px 0;
@@ -559,7 +563,9 @@ div.gf_page_steps+div.validation_error {
 	width: 97% !important;
 }
 
+// 
 // descriptions and erros ------------------------------------------------------
+//
 
 .gform_wrapper .description,
 .gform_wrapper .gfield_description,
@@ -637,7 +643,9 @@ div.gf_page_steps+div.validation_error {
 	border-bottom: 1px solid #C89797;
 }
 
+// 
 // tame those pesky hidden fields ------------------------------------------------------
+//
 
 
 .gform_wrapper input[type=hidden],
@@ -655,7 +663,9 @@ div.gf_page_steps+div.validation_error {
 	display: none !important;
 }
 
+// 
 // additional spacing and padding tweaks ------------------------------------------------------
+//
 
 .gform_wrapper ul.gfield_checkbox li,
 .gform_wrapper ul.gfield_radio li {
@@ -692,7 +702,9 @@ div.gf_page_steps+div.validation_error {
 	margin-top: 0;
 }
 
+// 
 // ajax forms ------------------------------------------------------
+//
 
 .gform_wrapper .gform_ajax_spinner {
 	padding-left: 10px;

@@ -1,4 +1,6 @@
+// 
 // hide the honeypot field  ------------------------------------------------------
+//
 
 .gform_validation_container,
 .gform_wrapper .gform_validation_container,
@@ -10,7 +12,9 @@ body .gform_wrapper ul.gform_fields li.gfield.gform_validation_container {
 	left: -9000px;
 }
 
-// Really Simple Captcha ------------------------------------------------------
+// 
+// really Simple Captcha ------------------------------------------------------
+//
 
 .gform_wrapper .gfield_captcha_input_container {
 	padding-top: 3px;
@@ -45,7 +49,9 @@ body .gform_wrapper ul.gform_fields li.gfield.gform_validation_container {
 	padding: 0 !important;
 }
 
+// 
 // math challenge ------------------------------------------------------
+//
 
 .gform_wrapper .math_small input {
 	width: 69px;
@@ -68,7 +74,9 @@ body .gform_wrapper ul.gform_fields li.gfield.gform_validation_container {
 	margin-left: 32%;
 }
 
+// 
 // fix recaptcha line height issue ------------------------------------------------------
+//
 
 body #content .entry-content .gform_wrapper form .gform_body .gform_fields .gfield .ginput_container #recaptcha_widget_div #recaptcha_area .recaptchatable tbody tr td .recaptcha_input_area,
 body .gform_wrapper form .gform_body .gform_fields .gfield .ginput_container #recaptcha_widget_div #recaptcha_area .recaptchatable tbody tr td .recaptcha_input_area {

@@ -389,7 +389,9 @@ html[dir="rtl"] div#preview_hdr div:first-child {
 	padding-right: 26px !important;
 }
 
-// Admin RTL support ----------------------------------------------------
+// 
+// admin RTL support ----------------------------------------------------
+//
 
 html[dir="rtl"] body.wp-admin  * {
 	direction: rtl !important;
@@ -514,7 +516,9 @@ html[dir="rtl"] body.wp-admin div.delete-alert {
 	padding: 0 20px 20px 20px;
 }
 
+// 
 // RTL tweaks for Firefox ------------------------------------------------------
+//
 
 body.rtl .gform_wrapper.gf_browser_gecko .top_label input[type="file"],
 body.rtl .gform_wrapper.gf_browser_gecko .left_label input[type="file"],
@@ -526,7 +530,9 @@ body .gform_wrapper.gf_rtl_wrapper.gf_browser_gecko .right_label input[type="fil
     direction: rtl !important;
 }
 
+// 
 // RTL tweaks for Opera ------------------------------------------------------
+//
 
 html[dir="rtl"] .gform_wrapper.gf_browser_opera input[type="checkbox"],
 body.rtl .gform_wrapper.gf_browser_opera input[type="checkbox"],

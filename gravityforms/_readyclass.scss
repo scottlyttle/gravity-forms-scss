@@ -9,7 +9,9 @@
 // this may not be redistributed without the
 // express written permission of the author.
 
+// 
 // inline fields ready class ------------------------------------------------------
+//
 
 .gform_wrapper .top_label li.gfield.gf_inline {
 	vertical-align: top;
@@ -82,7 +84,9 @@
 	white-space: nowrap !important;
 }
 
+// 
 // 2 column ready class ------------------------------------------------------
+//
 
 .gform_wrapper .top_label li.gfield.gf_left_half {
 	margin: 0 0 8px 0;
@@ -164,7 +168,9 @@
 	clear: both
 }
 
+// 
 // 3 column ready class ------------------------------------------------------
+//
 
 .gform_wrapper .top_label li.gfield.gf_left_third,
 .gform_wrapper .top_label li.gfield.gf_middle_third,
@@ -232,7 +238,9 @@
 	clear: both;
 }
 
+// 
 // radio/checkbox sub-column ready classes ------------------------------------------------------
+//
 
 .gform_wrapper li.gfield.gf_list_2col ul.gfield_checkbox li,
 .gform_wrapper li.gfield.gf_list_2col ul.gfield_radio li,
@@ -293,7 +301,7 @@
 	margin: 10px 0 10px 0;
 }
 
-/* optional height settings for the radio/checkbox columns */
+// optional height settings for the radio/checkbox columns
 
 .gform_wrapper li.gfield.gf_list_height_25 ul.gfield_checkbox li,
 .gform_wrapper li.gfield.gf_list_height_25 ul.gfield_radio li {
@@ -324,7 +332,9 @@
 	height: 150px;
 }
 
+// 
 // radio/checkbox inline list ready classes ------------------------------------------------------
+//
 
 .gform_wrapper li.gf_list_inline ul.gfield_checkbox li,
 .gform_wrapper li.gf_list_inline ul.gfield_radio li {
@@ -337,13 +347,17 @@
 	*display: inline;
 }
 
+// 
 // hide am/pm field ready class ------------------------------------------------------
+//
 
 .gform_wrapper li.gf_hide_ampm div.gfield_time_ampm {
 	display: none !important;
 }
 
+// 
 // scrolling text section break ready class ------------------------------------------------------
+//
 
 .gform_wrapper li.gsection.gf_scroll_text {
 	height: 180px;
@@ -419,7 +433,9 @@
 	margin: 0 0 1em 1.5em;
 }
 
+// 
 // HTML field alert style ready classes  ------------------------------------------------------
+//
 
 .gform_wrapper li.gfield.gfield_html.gf_alert_green,
 .gform_wrapper li.gfield.gfield_html.gf_alert_red,
@@ -468,7 +484,9 @@
 	color: #314475;
 }
 
+// 
 // confirmation styles Ready Classes ------------------------------------------------------
+//
 
 
 div.gform_confirmation_wrapper.gf_confirmation_simple_yellow {

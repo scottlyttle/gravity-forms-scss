@@ -9,7 +9,9 @@
 // this may not be redistributed without the
 // express written permission of the author.
 
+// 
 // Safari specific rules ------------------------------------------------------
+//
 
 .entry .gform_wrapper.gf_browser_safari ul li:before,
 .entry .gform_wrapper.gf_browser_safari ul li:after {
@@ -30,7 +32,9 @@
 	margin-top: 4px;
 }
 
+// 
 // Chrome specific rules ------------------------------------------------------
+//
 
 .gform_wrapper.gf_browser_chrome ul li:before,
 .gform_wrapper.gf_browser_chrome ul li:after,
@@ -60,7 +64,9 @@
 	margin-top: 4px;
 }
 
+// 
 // Firefox specific rules ------------------------------------------------------
+//
 
 .gform_wrapper.gf_browser_gecko ul li:before,
 .gform_wrapper.gf_browser_gecko ul li:after,
@@ -83,7 +89,9 @@
 	padding: 5px 0 0 0;
 }
 
+// 
 // Opera specific rules ------------------------------------------------------
+//
 
 .gform_wrapper.gf_browser_opera ul li:before,
 .gform_wrapper.gf_browser_opera ul li:after,
@@ -107,7 +115,9 @@
 }
 
 
+// 
 // IE specific rules ------------------------------------------------------
+//
 
 .gform_wrapper.gf_browser_ie ul li:before,
 .gform_wrapper.gf_browser_ie ul li:after,
@@ -178,7 +188,9 @@
 	left: 4px;
 }
 
+// 
 // iPhone specific rules ------------------------------------------------------
+//
 
 .gform_wrapper.gf_browser_iphone ul li:before,
 .gform_wrapper.gf_browser_iphone ul li:after,
@@ -187,7 +199,9 @@
 	content: none;
 }
 
+// 
 // rules for other unknown browsers ------------------------------------------------------
+//
 
 .gform_wrapper.gf_browser_unknown ul li:before,
 .gform_wrapper.gf_browser_unknown ul li:after,
